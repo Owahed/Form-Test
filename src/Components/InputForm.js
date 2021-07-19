@@ -14,7 +14,7 @@ const InputForm = () => {
             counter: data.counter,
           };
 
-          const url = `http://localhost:5000/addForm`;
+          const url = `https://obscure-island-01542.herokuapp.com/addForm`;
 
           console.log(eventData);
           fetch(url, {

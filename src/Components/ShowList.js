@@ -21,7 +21,7 @@ const ShowList = () => {
     console.log(services)
 
     useEffect(() => {
-        fetch('http://localhost:5000/allList')
+        fetch('https://obscure-island-01542.herokuapp.com/allList')
             .then(res => res.json())
             .then(data => setServices(data));
     }, []);
