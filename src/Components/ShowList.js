@@ -31,7 +31,7 @@ const ShowList = () => {
         <div className="container">
             
             <div className="mt-5">
-                <h3 className="mb-5 text-center">All Order List</h3>
+                <h3 className="mb-5 text-center">All List</h3>
                 <TableContainer component={Paper}>
                     <Table className={classes.table} aria-label="simple table">
                         <TableHead>

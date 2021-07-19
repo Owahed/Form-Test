@@ -32,6 +32,9 @@ const InputForm = () => {
     
     return (
         <div>
+            <div>
+            <h3 className="mb-5 text-center">Form</h3>
+            </div>
             <div className="mt-5">
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <input placeholder="First Name" {...register("firstName")} />
